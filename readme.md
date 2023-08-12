@@ -1,3 +1,47 @@
+## API Gateway Knative-Docker
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) ![Static Badge](https://img.shields.io/badge/N%C3%A3o%20pronto%20para%20produ%C3%A7%C3%A3o-red)
+
+## Introduction
+
+The Knative-Docker API Gateway is an innovative solution that simulates Knative functionality in Docker. Inspired by Knative's ability to manage serverless applications on Kubernetes, this project aims to provide an alternative for those using Docker in different environments, be it production, staging or development.
+
+## Main Features
+
+Dynamic Container Management: API Gateway is able to launch containers dynamically based on incoming requests. If a container is offline, it starts automatically.
+
+Resource Efficiency: Containers that don't receive requests for a configurable amount of time are shut down, optimizing resource usage.
+
+Intelligent Routing: API Gateway manages the routing of requests to the appropriate container, ensuring a fast and efficient response.
+
+## Configuring API Gateway Routes
+
+Our project's API Gateway uses a specific framework to configure and manage routes that redirect requests to specific Docker containers. This setting addresses aspects such as route path, destination service, retry attempts, health check and more.
+
+To fully understand how to configure and the expected behavior of these routes, refer to the detailed guide available in Route Configuration. [Configuração de Rotas](./ROUTE_CONFIGURATION.md).
+
+## Initialization of the Development Environment
+
+To set up and start the project's development environment, see the Development guide. [Desenvolvimento](./desenvolvimento.md).
+
+## Initialization of the Production Environment
+
+To set up and start your project's production environment, see the Production guide. [Produção](./producao.md).
+
+## How to Contribute
+
+We are always open to contributions! If you want to help improve the project, be it through bug fixes, improvements or new features, follow our Contribution Guide Guia de Contribuição](CONTRIBUTING.md) to understand the process and ensure that your contribution is integrated in the best possible way.
+
+## Code of Conduct
+
+We are committed to providing a welcoming and inclusive community for all. We expect all project participants to follow our Code of Conduct. [Código de Conduta](CODE_OF_CONDUCT.md) We ask that you read and follow these guidelines to ensure a respectful and productive environment for all employees.
+
+## License
+
+This project is licensed under the Apache 2.0 license. See the LICENSE [LICENSE](LICENSE) file for details.
+
+========================
+
 # API Gateway Knative-Docker
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE) ![Static Badge](https://img.shields.io/badge/N%C3%A3o%20pronto%20para%20produ%C3%A7%C3%A3o-red)
